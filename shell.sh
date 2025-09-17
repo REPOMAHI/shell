@@ -6,9 +6,11 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 
-LOG_FILE="oooo"
+TIMESTAMP=$(DATE +%y-%m-d)
+LOG_FILE="oooo_$TIMESTAMP_$0.log"
+LOG_FOLDER="MMMM"
 echo " 0000 directory is not there "
-mkdir -p $LOG_FILE
+mkdir -p $LOG_FOLDER
 echo " 0000 directory cretaed "
 
 dnf install nodejs -y
