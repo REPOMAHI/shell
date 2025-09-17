@@ -8,6 +8,7 @@ N="\e[0m"
 
 dnf install nodejs -y
 if [ $? -ne 0 ]
+then
    echo -e " niginx $R not installed $N "
 fi
 
