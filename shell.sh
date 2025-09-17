@@ -6,10 +6,10 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 
-LOG_FILE="/iyer"
-echo " iyer directory is not there "
+LOG_FILE="oooo"
+echo " 0000 directory is not there "
 mkdir -p $LOG_FILE
-echo " iyer directory cretaed "
+echo " 0000 directory cretaed "
 
 dnf install nodejs -y
 if [ $? -ne 0 ]
