@@ -16,7 +16,7 @@ if [ $? -ne 0 ]
 then
    echo -e " niginx $R not installed $N " &>> $LOG_FILE
 else
-   echo -e " $G niginx installed $N "
+   echo -e " $G niginx installed $N " &>> $LOG_FILE
 fi
 
 
