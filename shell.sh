@@ -10,5 +10,7 @@ dnf install nodejs -y
 if [ $? -ne 0 ]
 then
    echo -e " niginx $R not installed $N "
+else
+   echo -e " $G niginx installed $N "
 fi
 
