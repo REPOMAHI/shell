@@ -6,7 +6,7 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 
-TIMESTAMP=$(DATE +%y-%m-d)
+TIMESTAMP=$(date +%Y-%m-%d)
 LOG_FILE="oooo_$TIMESTAMP_$0.log"
 LOG_FOLDER="MMMM"
 echo " 0000 directory is not there "
